@@ -1,0 +1,4 @@
+- git:
+    local-name: openrave_catkin
+    uri: https://github.com/crigroup/openrave_catkin.git
+    version: master

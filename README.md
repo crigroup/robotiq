@@ -10,6 +10,7 @@ ROS metapackage developed by the [Control Robotics Intelligence Group](http://ww
 ## Maintainer
 
 [Francisco Suárez Ruiz](fsuarez6.github.io)
+[Nicholas Adrian](nicholasadr.github.io)
 
 ## Documentation
 
@@ -26,7 +27,13 @@ cd ~/catkin_ws/src
 Clone these repository:
 ```{bash}
 git clone https://github.com/crigroup/robotiq.git
-git clone https://github.com/crigroup/openrave_catkin.git
+```
+
+Install required packages:
+```{bash}
+wstool init .
+wstool merge robotiq/.rosinstall
+wstool update
 ```
 
 Install any missing dependencies using rosdep:
