@@ -9,8 +9,8 @@ ROS metapackage developed by the [Control Robotics Intelligence Group](http://ww
 
 ## Maintainer
 
-[Francisco Suárez Ruiz](fsuarez6.github.io)
-[Nicholas Adrian](nicholasadr.github.io)
+  * [Francisco Suárez Ruiz](fsuarez6.github.io)
+  * [Nicholas Adrian](nicholasadr.github.io)
 
 ## Documentation
 
@@ -24,7 +24,7 @@ Go to your ROS working directory. e.g.
 cd ~/catkin_ws/src
 ```
 
-Clone these repository:
+Clone this repository:
 ```{bash}
 git clone https://github.com/crigroup/robotiq.git
 ```
