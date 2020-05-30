@@ -26,7 +26,7 @@ cd ~/catkin_ws/src
 
 Clone this repository:
 ```{bash}
-git clone https://github.com/crigroup/robotiq.git
+git clone -b melodic-devel https://github.com/crigroup/robotiq.git
 ```
 
 Install required packages:
